@@ -1,0 +1,144 @@
+
+.titulo1{
+	text-align: center;color: #59F70A;
+	margin-top: 150px;
+}
+
+.centro{
+	text-align: center;
+
+}
+
+table{
+	margin-top: 50px;
+	border: solid;
+	border-collapse: collapse;
+	border-radius: 4px;
+}
+tr{
+	border:solid;
+	border-color: #10F710;
+	border-radius: 4px;
+	
+}
+
+td{
+	border: solid;
+	border-color: #10F710;
+	border-radius: 4px;
+}
+
+.colorve{
+	color:#EAFAFF;
+}
+
+
+
+form p {
+  text-align: center;
+}
+
+form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: #10F710;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+.container{
+
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
+	height: 100vh;
+
+}
+
+
+.content{
+	max-height: 600px;
+	max-width: 960px;
+	width: 100%;
+	height: 100%;
+	border: solid;
+	position: relative;
+	
+}
+
+.titulo2{
+	text-align: center;color: #59F70A;
+	margin-top: 50px;
+
+}
+
+.inline{
+	display: inline-block;
+}
+
+.center{
+	text-align: center;
+}
+.underline{
+
+	border-bottom: : solid 2px black;
+}
+	
+.texto{
+	color:#EAFAFF;
+
+}
+.posicion{
+	background-color:  #10F710;
+	padding: 10px;
+	margin-left: 5px;
+	border-radius: 4px;
+
+}
+.actions{
+	position: absolute;
+	top:  1em;
+	right: 1em;
+}
+.close{
+	height: 40px;
+	width: 40px;
+	background-color:  #10F710;
+	display: inline-block;
+	color: white;
+	border-radius: 50px;
+	display: flex;
+	align-items: : center;
+	justify-content: center;
+
+}
+a{
+	text-decoration: none;
+	text-decoration-color: white;
+}
+
+/* Unidades de medida css*/
+/* Unidades fijas, estaticas o absolutas
+/* Pixeles px, Centimetros cm, Milimetros mm, picas pc, puntos pt
+
+/*uniddad de medida relativas
+/*porcentajes %, em, ex X, rem , vh (1%), vw(1)
